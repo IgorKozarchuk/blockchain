@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Blockchain</title>
+		<style>
+			body {
+				font-family: monospace;
+				font-size: 1.5em;
+				background: radial-gradient(circle, #fff, #ccc) fixed;
+				text-align: center;
+				color: #00859F;
+				padding: 40px 20px;
+			}
+			h1 {
+				text-shadow: 0px -1px 0px rgba(0,0,0,0.5);
+			}
+			button {
+				font-family: monospace;
+				font-size: 0.8em;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				background-color: #00859F;
+				color: #fff;
+				padding: 10px 20px;
+				border: none;
+				cursor: pointer;
+				transition: box-shadow 0.3s ease-in-out;
+			}
+			button:hover {
+				box-shadow: 4px 6px 10px rgba(0,0,0,0.3);
+			}
+			.underln {
+				text-decoration: underline;
+			}
+			#destination {
+				font-size: 0.8em;
+				text-align: left;
+			}
+		</style>
+	</head>
+	<body>
+
+		<h1>Blockchain</h1>
+		<p>A <b class="underln">blockchain</b> is a continuously growing list of records, called blocks, which are linked and secured using cryptography. Each block typically contains a hash pointer as a link to a previous block, a timestamp and transaction data.</p>
+		<p class="underln">Check console!</p>
+		<button id="btn">Show blockchain</button>
+		<pre id="destination"></pre>
+
+		<script src="bundle.js"></script>
+
+	</body>
+</html>
